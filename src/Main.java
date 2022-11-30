@@ -7,6 +7,7 @@ public class Main {
                 task5();
                 task6();
                 task7();
+                task8();
 
             }
 
@@ -82,6 +83,19 @@ public class Main {
         System.out.println("Разница в весе спортсменов составила " + differenceWeight + " кг");
         var differenceWeight1 = secondBoxer % firstBoxer;
         System.out.println("Второй боксер весит на " + differenceWeight1 + " кг больше");
+
+    }
+    public static void task8 () {
+        System.out.println("Задача 8");
+       var totalHours = 640;
+       var workerHours = 8;
+       var totalWorker = totalHours / workerHours;
+        System.out.println("Всего работников в компании - " + totalWorker + " человек.");
+       var addWorker = 94;
+       var addHours = addWorker * 8;
+       var newTotalWorker = totalWorker + addWorker;
+       var newTotalHours = totalHours + addHours;
+        System.out.println("Если в компании работает " + newTotalWorker + " человек, то всего " + newTotalHours + " часов работы может быть поделено между сотрудниками");
 
     }
 
